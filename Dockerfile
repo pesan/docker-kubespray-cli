@@ -1,6 +1,8 @@
 FROM alpine:3.5
 
 RUN apk add --no-cache \
+  openssh \
+  git \
   py-pip \
   build-base \
   python-dev \
